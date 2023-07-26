@@ -25,8 +25,8 @@ export default function CoursesList() {
             <h1>Courses</h1>
             {courses.map((course) => (
                 <div key={course.id}>
-                    <h2>{course.name}</h2>
-                    <p>{course.description}</p>
+                    <h2>Name: {course.name}</h2>
+                    <p>Description: {course.description}</p>
                     <p>Duration: {course.duration}</p>
                     <p>Difficulty Level: {course.difficulty_level}</p>
                     <p>Price: {course.price}</p>
